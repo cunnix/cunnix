@@ -7,15 +7,10 @@ description.workspace = true
 repository.workspace = true
 license.workspace = true
 
-[build-dependencies.kernel]
-package = "blue-kernel"
-path = "../kernel"
-artifact = "bin"
-target = "x86_64-unknown-none"
-
 [build-dependencies]
-bootloader = "0.11"
+bootloader.workspace = true
+kernel.workspace = true
 
 [dependencies]
 # used for UEFI booting in QEMU
-ovmf-prebuilt = "0.1.0-alpha.1"
+ovmf-prebuilt.workspace = true

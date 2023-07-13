@@ -15,3 +15,15 @@ edition = "2021"
 description = "Hybrid and modular POSIX"
 repository = "https://github.com/yvvki/blue-kernel"
 license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+bootloader = "0.11"
+bootloader_api = "0.11"
+
+ovmf-prebuilt = "0.1.0-alpha.1"
+
+[workspace.dependencies.kernel]
+package = "blue-kernel"
+path = "crates/kernel"
+artifact = "bin"
+target = "x86_64-unknown-none"

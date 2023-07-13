@@ -2,6 +2,20 @@
 
 POSIX hybrid kernel
 
+## Running
+
+Requirements:
+
+* rustup +nightly
+* cargo
+* qemu-system-x86_64
+
+then by running
+
+```sh
+cargo run
+```
+
 ## License
 
 Licensed under either of

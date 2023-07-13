@@ -7,12 +7,4 @@ description.workspace = true
 repository.workspace = true
 license.workspace = true
 
-# The profile used for `cargo build`.
-[profile.dev]
-panic = "abort" # disable stack unwinding on panic
-
-# The profile used for `cargo build --release`.
-[profile.release]
-panic = "abort" # disable stack unwinding on panic
-
 [dependencies]

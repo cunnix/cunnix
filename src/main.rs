@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
+#![no_std] // don't link the Rust standard library
+
+fn main() {}

@@ -2,6 +2,20 @@
 
 POSIX hybrid kernel
 
+## Running
+
+Requirements:
+
+* [rustup +nightly](https://www.rust-lang.org/)
+* [cargo](https://www.rust-lang.org/)
+* [qemu-system-x86_64](https://www.qemu.org/)
+
+then by running
+
+```sh
+cargo run
+```
+
 ## License
 
 Licensed under either of

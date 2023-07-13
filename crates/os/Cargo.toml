@@ -1,5 +1,5 @@
 [package]
-name = "blue-kernel"
+name = "blue-os"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
@@ -7,5 +7,10 @@ description.workspace = true
 repository.workspace = true
 license.workspace = true
 
+[build-dependencies]
+bootloader.workspace = true
+kernel.workspace = true
+
 [dependencies]
-bootloader_api.workspace = true
+# used for UEFI booting in QEMU
+ovmf-prebuilt.workspace = true

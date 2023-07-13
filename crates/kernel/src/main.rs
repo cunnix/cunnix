@@ -7,8 +7,8 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
     loop {}
 }
 
-#[no_mangle] // don't mangle the name of this function
-pub extern "C" fn _start() -> ! {
+bootloader_api::entry_point!(main);
+fn main(_info: &'static mut bootloader_api::BootInfo) -> ! {
     // This function is the entry point, since the linker looks for a function
     // named `_start` by default.
     loop {}

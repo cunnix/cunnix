@@ -1,25 +1,11 @@
+[workspace]
+members = [
+    "crates/*",
+]
+
 [workspace.package]
 authors = ["Yuuki Rika <yvvki@duck.com>"]
 edition = "2021"
 description = "Hybrid and modular POSIX"
 repository = "https://github.com/yvvki/blue-kernel"
 license = "MIT OR Apache-2.0"
-
-[package]
-name = "blue-kernel"
-version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
-description.workspace = true
-repository.workspace = true
-license.workspace = true
-
-# The profile used for `cargo build`.
-[profile.dev]
-panic = "abort" # disable stack unwinding on panic
-
-# The profile used for `cargo build --release`.
-[profile.release]
-panic = "abort" # disable stack unwinding on panic
-
-[dependencies]

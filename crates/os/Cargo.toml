@@ -7,11 +7,11 @@ description.workspace = true
 repository.workspace = true
 license.workspace = true
 
-[dependencies.kernel]
+[build-dependencies.kernel]
 package = "blue-kernel"
 path = "../kernel"
 artifact = "bin"
 target = "x86_64-unknown-none"
 
-[dependencies]
+[build-dependencies]
 bootloader = "0.11"

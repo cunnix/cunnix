@@ -1,8 +1,10 @@
 [package]
 name = "blue-kernel"
 version = "0.1.0"
+authors = ["Yuuki Rika <yvvki@duck.com>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "POSIX hybrid kernel"
+repository = "https://github.com/yvvki/blue-kernel"
+license = "MIT OR Apache-2.0"
 
 [dependencies]

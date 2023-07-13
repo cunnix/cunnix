@@ -12,7 +12,9 @@ panic = "abort" # disable stack unwinding on panic
 panic = "abort" # disable stack unwinding on panic
 
 [workspace.package]
-authors = ["Yuuki Rika <yvvki@duck.com>"]
+authors = [
+    "Yuuki Rika <yvvki@duck.com>",
+]
 edition = "2021"
 description = "Hybrid and modular POSIX"
 repository = "https://github.com/yvvki/blue-kernel"

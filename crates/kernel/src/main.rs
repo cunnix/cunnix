@@ -8,8 +8,12 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 }
 
 bootloader_api::entry_point!(main);
-fn main(_info: &'static mut bootloader_api::BootInfo) -> ! {
-    // This function is the entry point, since the linker looks for a function
-    // named `_start` by default.
+fn main(info: &'static mut bootloader_api::BootInfo) -> ! {
+    if let Some(framebuffer) = info.framebuffer.as_mut() {
+        for byte in framebuffer.buffer_mut() {
+            *byte = 0x00;
+        }
+    }
+
     loop {}
 }

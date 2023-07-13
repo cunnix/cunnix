@@ -8,4 +8,9 @@ repository.workspace = true
 license.workspace = true
 
 [dependencies]
+log.workspace = true
+conquer-once.workspace = true
+
 bootloader_api.workspace = true
+bootloader-x86_64-common.workspace = true
+

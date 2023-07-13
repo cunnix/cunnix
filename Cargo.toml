@@ -1,6 +1,7 @@
 [workspace.package]
 authors = ["Yuuki Rika <yvvki@duck.com>"]
 edition = "2021"
+description = "Hybrid and modular POSIX"
 repository = "https://github.com/yvvki/blue-kernel"
 license = "MIT OR Apache-2.0"
 
@@ -9,7 +10,7 @@ name = "blue-kernel"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
-description = "POSIX hybrid kernel"
+description.workspace = true
 repository.workspace = true
 license.workspace = true
 

@@ -133,18 +133,18 @@ dependencies = [
 ]
 
 [[package]]
-name = "blue"
-version = "0.1.0"
-dependencies = [
- "blue-kernel",
- "bootloader",
-]
-
-[[package]]
 name = "blue-kernel"
 version = "0.1.0"
 dependencies = [
  "bootloader_api",
+]
+
+[[package]]
+name = "blue-os"
+version = "0.1.0"
+dependencies = [
+ "blue-kernel",
+ "bootloader",
 ]
 
 [[package]]

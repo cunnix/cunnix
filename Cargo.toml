@@ -13,7 +13,7 @@ authors = [
     "Yuuki Rika <yvvki@duck.com>",
 ]
 edition = "2021"
-description = "Hybrid and modular POSIX"
+description = "Hybrid + Modular + POSIX"
 repository = "https://github.com/yvvki/cunnix"
 license = "MIT OR Apache-2.0"
 

@@ -14,7 +14,7 @@ authors = [
 ]
 edition = "2021"
 description = "Hybrid and modular POSIX"
-repository = "https://github.com/yvvki/blue-kernel"
+repository = "https://github.com/yvvki/cunnix"
 license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]

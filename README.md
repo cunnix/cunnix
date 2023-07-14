@@ -1,6 +1,10 @@
-# Blue Kernel
+<div align="center">
+    <img width="25%" src="logo.png"> 
+</div>
 
-POSIX hybrid kernel
+# Cunnix
+
+Hybrid + Modular + POSIX
 
 ## Running
 

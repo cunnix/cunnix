@@ -139,25 +139,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "blue-kernel"
-version = "0.1.0"
-dependencies = [
- "bootloader-x86_64-common",
- "bootloader_api",
- "conquer-once 0.4.0",
- "log",
-]
-
-[[package]]
-name = "blue-os"
-version = "0.1.0"
-dependencies = [
- "blue-kernel",
- "bootloader",
- "ovmf-prebuilt",
-]
-
-[[package]]
 name = "bootloader"
 version = "0.11.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -285,6 +266,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5a22b2d63d4d1dc0b7f1b6b2747dd0088008a9be28b6ddf0b1e7d335e3037294"
 dependencies = [
  "cfg-if",
+]
+
+[[package]]
+name = "cunnix-kernel"
+version = "0.1.0"
+dependencies = [
+ "bootloader-x86_64-common",
+ "bootloader_api",
+ "conquer-once 0.4.0",
+ "log",
+]
+
+[[package]]
+name = "cunnix-os"
+version = "0.1.0"
+dependencies = [
+ "bootloader",
+ "cunnix-kernel",
+ "ovmf-prebuilt",
 ]
 
 [[package]]

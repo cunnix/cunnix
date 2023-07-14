@@ -1,5 +1,5 @@
 [package]
-name = "blue-kernel"
+name = "cunnix-kernel"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true

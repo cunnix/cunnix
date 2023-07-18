@@ -14,7 +14,7 @@ authors = [
 ]
 edition = "2021"
 description = "Hybrid + Modular + POSIX"
-repository = "https://github.com/yvvki/cunnix"
+repository = "https://github.com/cunnix/cunnix"
 license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]

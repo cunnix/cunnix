@@ -8,7 +8,6 @@ default-members = [
 ]
 
 [workspace.package]
-name = "cunnix"
 authors = [
     "Yuuki Rika <yvvki@duck.com>",
 ]

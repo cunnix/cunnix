@@ -8,6 +8,7 @@ default-members = [
 ]
 
 [workspace.package]
+version = "0.1.0-alpha.1"
 authors = [
     "Yuuki Rika <yvvki@duck.com>",
 ]
